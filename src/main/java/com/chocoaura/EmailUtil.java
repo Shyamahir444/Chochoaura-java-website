@@ -7,8 +7,8 @@ import java.util.Properties;
 public class EmailUtil {
 
     public static boolean sendOtp(String email, String otp) {
-        final String fromEmail = "syamahir08@gmail.com";
-        final String password = "cbrt dzgi vkec dtof";
+        final String fromEmail = "Your_Email";
+        final String password = "App_Password";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
